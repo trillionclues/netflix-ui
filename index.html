@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js" defer></script>
+    <title>Netflix Nigeria - Watch TV Shows Online, Watch Movies Online</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <nav>
+          <img id="logo" src="./images/logo.png" alt="logo" />
+          <button id="sign-in">Sign In</button>
+        </nav>
+
+        <div id="hero-text">
+          <h1>Unlimited movies, TV shows, and more.</h1>
+          <h2>Watch anywhere. Cancel anytime.</h2>
+          <p>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+
+          <form action="submit">
+            <div class="form-signup">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="Email address"
+                required
+              />
+            </div>
+
+            <div class="form-signup">
+              <button id="submit" type="submit" class="logo-btn">
+                Get Started
+                <i id="chevron" class="fa-solid fa-chevron-right fa-0.6x"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <section id="tv-section">
+        <h1>Enjoy on your TV.</h1>
+        <h2>
+          Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+          players, and more.
+        </h2>
+
+        <div class="tv-player">
+          <img src="./images/netflix-enjoy-on-img.png" alt="" />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
