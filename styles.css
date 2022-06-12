@@ -65,7 +65,7 @@
 
   /* hero text */
   #hero-text {
-    padding: 50px 10px 5px 10px;
+    padding: 50px 10px 43px 10px;
     color: #fff;
     text-align: center;
   }
@@ -133,7 +133,13 @@
     margin-left: 5px;
   }
 
-  /* section */
+  /* MAIN SECTION STARTS */
+
+  /* TV SECTION STARTS */
+
+  .main-section #tv-section {
+    border-top: 8px solid #222;
+  }
 
   #tv-section {
     background-color: black;
@@ -142,7 +148,92 @@
     text-align: center;
   }
 
-  .tv-player img {
-    max-width: 80%;
+  #tv-section h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
   }
+  #tv-section h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .tv-player img {
+    max-width: 97%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .tv-story-play {
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tv-story-play video {
+    object-fit: contain;
+    width: 93%;
+    height: 70%;
+    margin-top: 34.5rem;
+    display: inline-block;
+    vertical-align: baseline;
+  }
+
+  /* TV SECTION ENDS */
+
+  /* OFFLINE SHOW SECTION STARTS */
+  .main-section #download-section {
+    border-top: 8px solid #222;
+  }
+
+  #download-section {
+    background-color: black;
+    padding: 50px 10px;
+    color: #fff;
+    text-align: center;
+  }
+  #download-section h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  #download-section h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .offline-show img {
+    max-width: 97%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .offline-show-play {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    min-width: 15em;
+    height: 65px;
+    padding: 0.25em 0.65em;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 0.75em;
+    position: absolute;
+    top: 196%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .offline-show-play .offline-show-img img {
+    height: 50px;
+  }
+
+  /* OFFLINE SHOW SECTION ENDS */
 }
