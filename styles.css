@@ -65,7 +65,7 @@
 
   /* hero text */
   #hero-text {
-    padding: 50px 10px;
+    padding: 50px 10px 5px 10px;
     color: #fff;
     text-align: center;
   }
@@ -140,7 +140,6 @@
     padding: 50px 10px;
     color: #fff;
     text-align: center;
-    margin-top: 1rem;
   }
 
   .tv-player img {
