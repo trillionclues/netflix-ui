@@ -179,7 +179,7 @@
     object-fit: contain;
     width: 93%;
     height: 70%;
-    margin-top: 34.5rem;
+    margin-top: 33.5rem;
     display: inline-block;
     vertical-align: baseline;
   }
@@ -209,7 +209,7 @@
   }
 
   .offline-show img {
-    max-width: 97%;
+    max-width: 98.3%;
     height: 100%;
     position: relative;
     z-index: 2;
