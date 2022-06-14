@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   /* hero */
 
   body {
@@ -179,7 +179,7 @@
     object-fit: contain;
     width: 93%;
     height: 70%;
-    margin-top: 33.5rem;
+    margin-top: 33.2rem;
     display: inline-block;
     vertical-align: baseline;
   }
@@ -330,4 +330,83 @@
     max-width: 96%;
   }
   /* KIDS PROFILE SECTION ENDS */
+
+  /* FAQ DOCUMENTATION STARTS*/
+
+  .main-section #faq {
+    border-top: 8px solid #222;
+  }
+
+  #faq {
+    background-color: #000;
+    color: #fff;
+    padding: 55px 10px;
+  }
+
+  #faq h1 {
+    padding: 0 5px;
+    font-weight: 400;
+    padding-bottom: 17px;
+    text-align: center;
+  }
+
+  .faq-questions {
+    width: 95vw;
+    margin: 0 auto;
+    max-width: 1180px;
+  }
+
+  .question {
+    background-color: #333;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .question-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    padding-bottom: 0.5rem;
+  }
+
+  .question-title p {
+    letter-spacing: 0.15rem;
+    font-size: 20px;
+    margin-top: 0.5rem;
+  }
+
+  .question-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.3s linear;
+  }
+  .question-btn:hover {
+    transform: rotate(90deg);
+  }
+
+  .question-text {
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  /* Hide text and only display with JS */
+  .question-text {
+    display: none;
+  }
+  .show-text .question-text {
+    display: block;
+  }
+  .cancel-icon {
+    display: none;
+  }
+  .show-text .minus-icon {
+    display: inline;
+  }
+  .show-text .plus-icon {
+    display: none;
+  }
 }
