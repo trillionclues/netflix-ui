@@ -1,6 +1,5 @@
 // select elements
 const questionFaq = document.querySelectorAll('.question')
-
 // loop over question sets
 questionFaq.forEach(function (question) {
   const btn = question.querySelector('.question-btn')

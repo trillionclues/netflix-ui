@@ -414,7 +414,7 @@
   .cancel-icon {
     display: none;
   }
-  .show-text .minus-icon {
+  .show-text .cancel-icon {
     display: inline;
   }
   .show-text .plus-icon {
