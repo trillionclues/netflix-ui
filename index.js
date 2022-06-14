@@ -3,7 +3,7 @@ const questionFaq = document.querySelectorAll('.question')
 
 // loop over question sets
 questionFaq.forEach(function (question) {
-  const btn = document.querySelector('.question-btn')
+  const btn = question.querySelector('.question-btn')
   // console.log(btn)
 
   btn.addEventListener('click', function () {
@@ -18,3 +18,14 @@ questionFaq.forEach(function (question) {
     question.classList.toggle('show-text')
   })
 })
+
+// by traversing the DOM
+// const btns = document.querySelectorAll('.question-btn')
+
+// btns.forEach(function (btn) {
+//   btn.addEventListener('click', function (evt) {
+//     const questionSelect = evt.currentTarget.parentElement.parentElement
+
+//     questionSelect.classList.toggle('show-text')
+//   })
+// })

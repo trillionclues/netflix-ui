@@ -393,6 +393,17 @@
     border-top: 1px solid rgba(0, 0, 0, 0.2);
   }
 
+  .faq-text {
+    margin: 10px 12px;
+    /* padding: 10px 26px; */
+    font-size: 26px;
+  }
+  #faq form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   /* Hide text and only display with JS */
   .question-text {
     display: none;
