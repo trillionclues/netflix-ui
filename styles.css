@@ -170,7 +170,7 @@
     max-width: 73%;
     max-height: 54%;
     position: absolute;
-    top: 46%;
+    top: 49.68%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -474,7 +474,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     list-style-type: none;
-    gap: 1px;
+    grid-gap: 1px;
   }
 
   ul li {
